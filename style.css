@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    margin: 0;
+}
+#navbar{
+    width: 320px;
+    min-width: 290px;
+    border: 1px solid gray;
+}
+header{
+    color: #222;
+    padding: 20px;
+    font-size: 1.8em;
+}
+nav li{
+    list-style: none;
+    border-top: 1px solid gray;
+    margin: auto 0;
+    font-size: 1.5em;
+}
+nav ul{
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: darkolivegreen;
+    padding: 15px  30px;
+    display: block;
+}
+section > article{
+    margin: auto 2em;
+}
+code{
+    margin: 10px;
+    padding:10px;
+    background-color: rgba(144, 238, 144, 0.459);
+    border-radius: 3px;
+}
